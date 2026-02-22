@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Från PLC till SCADA - Automation Lektioner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lesson-style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Automation</h1>
+                <p class="tagline">processer och IoT</p>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Hem</a>
+                <a href="index.html#lektioner" class="nav-link">Lektioner</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Lesson Content -->
+    <main class="lesson-main">
+        <div class="container">
+            <!-- Back Button -->
+            <a href="index.html#lektioner" class="back-button">← Tillbaka till lektioner</a>
+
+            <!-- Lesson Header -->
+            <header class="lesson-header lesson-header-2">
+                <h1>Från PLC till SCADA – översikt av styrsystem</h1>
+                <p class="lesson-subtitle">Lektion 2 - Studieanteckningar 2026</p>
+            </header>
+
+            <!-- Lesson Content -->
+            <article class="lesson-article">
+                <section class="lesson-section">
+                    <h2>Introduktion till styrsystem</h2>
+                    <p>Styrsystem utgör verksamhetens tekniska hjärna och ansvarar för att maskiner och processer fungerar som de ska. Utan dessa system skulle modern industri inte kunna fungera effektivt.</p>
+                </section>
+
+                <section class="lesson-section">
+                    <h2>Vad är PLC?</h2>
+                    <p><strong>PLC</strong> står för "Programmable Logic Controller" och är en industriell dator som:</p>
+                    <ul class="lesson-list">
+                        <li>Läser signaler från sensorer</li>
+                        <li>Behandlar dessa signaler enligt programmerad logik</li>
+                        <li>Skickar ut styrsignaler till aktuatorer och maskiner</li>
+                        <li>Är robust och designad för hård industriell miljö</li>
+                    </ul>
+                    <p>PLC är typen av system som styr det som händer i praktiken – den direkt reglerar maskinerna.</p>
+                </section>
+
+                <section class="lesson-section">
+                    <h2>Vad är SCADA?</h2>
+                    <p><strong>SCADA</strong> står för "Supervisory Control and Data Acquisition" och är ett överordnat system som:</p>
+                    <ul class="lesson-list">
+                        <li>Samlar information från flera PLC:er och sensorer</li>
+                        <li>Presenterar data på en central skärm för operatörer</li>
+                        <li>Ger en samlad överblick över hela anläggningen</li>
+                        <li>Möjliggör fjärrövervakning och grundläggande styrning</li>
+                        <li>Lagrar historisk data för analys</li>
+                    </ul>
+                </section>
+
+                <section class="lesson-section">
+                    <h2>Skillnaden mellan PLC och SCADA</h2>
+                    <p>Enkelt förklarat:</p>
+                    <ul class="lesson-list">
+                        <li><strong>PLC:</strong> Gör jobbet (styr maskinerna)</li>
+                        <li><strong>SCADA:</strong> Ser vad som händer (övervakar och rapporterar)</li>
+                    </ul>
+                    <p>En anläggning kan ha många PLC:er (en för varje maskin eller process), men en gemensam SCADA som samlar allt på ett ställe.</p>
+                </section>
+
+                <section class="lesson-section">
+                    <h2>Praktiska exempel</h2>
+                    <p>I en kemisk fabrik:</p>
+                    <ul class="lesson-list">
+                        <li>En <strong>PLC</strong> styr varje reaktor (temperatur, tryck, flöde)</li>
+                        <li><strong>SCADA</strong>-systemet visar alla reaktorers status på en monitor</li>
+                        <li>Operatören kan se hela processen och få varningar vid problem</li>
+                    </ul>
+                </section>
+
+                <section class="lesson-section">
+                    <h2>Sammanfattning</h2>
+                    <p>Styrsystem är essentiella för modern industri. PLC:er hanterar de praktiska uppgifterna medan SCADA ger överblick och kontroll. Tillsammans skapar de ett effektivt och tillförlitligt produktionssystem.</p>
+                </section>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Studieanteckningar. Skapad av Teresia</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
